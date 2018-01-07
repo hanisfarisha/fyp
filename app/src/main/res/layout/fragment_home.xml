@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="217dp"
+        android:text="Search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="86dp"
+        android:entries="@array/category_arrays"
+        android:prompt="@string/search_category"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerOrganizer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerOrganizer"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginStart="52dp"
+        android:entries="@array/organizer_arrays"
+        android:prompt="@string/search_organizer"
+        app:layout_constraintBottom_toTopOf="@+id/date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCategory" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="305dp"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/spinnerOrganizer"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerOrganizer" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:text="Choose a category"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerCategory"
+        app:layout_constraintStart_toStartOf="@+id/spinnerCategory" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event organizer"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerOrganizer"
+        app:layout_constraintStart_toStartOf="@+id/spinnerOrganizer" />
+
+</android.support.constraint.ConstraintLayout>

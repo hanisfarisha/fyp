@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hanis.fyp.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/btn_vol"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="21dp"
+        android:layout_marginTop="149dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Volunteer"
+        app:layout_constraintBottom_toTopOf="@+id/btn_org"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_org"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="227dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="organization"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_vol" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">fyp</string>
+    <string name="title_activity_org_register">org_register</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_vol_login">vol_login</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_event_details">EventDetails</string>
+
+    <string name="title_activity_vol_search">VolSearch</string>
+    <string name="search_category">Choose a category</string>
+    <string-array name="category_arrays">
+        <item> </item>
+        <item>Youth Development</item>
+        <item>Community Service</item>
+        <item>Fitness and Health</item>
+        <item>Cultural Arts</item>
+        <item>Education</item>
+        <item>Special Needs</item>
+    </string-array>
+    <string name="search_organizer">Event Organizer</string>
+    <string-array name="organizer_arrays">
+        <item> </item>
+        <item>SMF (Sekretariat Mahasiswa Fakulti)</item>
+        <item>CS (Computer Science Club)</item>
+        <item>MMCS (Multimedia Computing Society )</item>
+        <item>AIS (Artificial Intelligence Society)</item>
+        <item>ISEC (Information System Engineering Club)</item>
+        <item>ITEC (Information Technology Club)</item>
+        <item>MSc IT Club</item>
+        <item>Nets (Data Communications and Networking Society)</item>
+        <item>Netcom (Netcentric Computing Club)</item>
+        <item>InSTATS (Statistics Club)</item>
+        <item>PPSSP (Persatuan Pasca Siswazah Statistik Dan Sains Pemutusan)</item>
+        <item>Math (Mathematic Club)</item>
+        <item>ASC (Actuarial Science Club)</item>
+        <item>PRS (Pembimbing Rakan Sebaya Club)</item>
+        <item>e-Sports Club</item>
+        <item>bisComp</item>
+    </string-array>
+
+    <string name="project">Project</string>
+    <string-array name="project_arrays">
+        <item> </item>
+        <item>Upcoming Joined Project</item>
+        <item>Past Joined Project</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_org_profile">org_profile</string>
+</resources>
